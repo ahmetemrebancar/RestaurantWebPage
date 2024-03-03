@@ -1,0 +1,115 @@
+.ustkisim{
+    
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: aqua;
+
+}
+.yemekler{
+    background-color: red;
+    flex: 1;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.icecekler{
+    background-color: yellow;
+    flex: 1;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 25px
+}
+.yapanlar{
+    background-color: green;
+    flex: 1;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 25px
+}
+.anabaslik{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: letter-spacing 1s;
+    color: white;
+}
+.anabaslik:hover{
+    letter-spacing: 10px;
+}
+.ana{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 800px;
+    background-color: gray;
+    border-width: 5px;
+    border: solid;
+    border-color: black;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+.corba{
+    width: 165px;
+
+}
+.icecek{
+    width: 165px;
+}
+.corbafoto{
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 2px;
+    width: 200px;
+    height: 120px;
+}
+.icecekfoto{
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 2px;
+    width: 200px;
+    height: 120px;
+}
+.baslik{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-left: 100px;
+    color: white;
+}
+.yemekisim{
+    margin-left: 5px;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+}
+.icecekisim{
+    margin-left: 5px;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+    
+}
+.isim1{
+    flex: 1;
+}
+.isim1bucuk{
+    margin-top: 3px;
+    margin-bottom: 8px;
+    width: 2px;
+    background-color: black;
+    height: 99%;
+    
+}
+
+.isim2{
+flex: 1;
+}

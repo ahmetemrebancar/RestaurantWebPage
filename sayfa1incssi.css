@@ -1,0 +1,82 @@
+* {
+
+
+  margin: 0;
+}
+
+body {
+  background-image: url(Resimler/restaurant_tables_interior_206807_1366x768.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #006064;
+  padding: 0%;
+  opacity: 0.95;
+}
+
+
+.navbar button {
+  background-color: #006064;
+  color: white;
+  border: none;
+  padding: 50px;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+
+.navbar button:hover {
+  background-color: #00838F;
+
+}
+
+.butonnnn {
+
+  font-size: large;
+}
+
+.kare-div {
+  width: 300px;
+  height: 400px;
+  border: 5px solid #006064;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+.formici {
+  padding: 50px;
+  margin: auto;
+  font-size: large;
+
+}
+
+.onaybutonu {
+  height: 50px;
+  width: 80px;
+  background-color: #006064;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+}
+
+/* buton ve divlerin yerlerini değiştirmeyi öğren 
+ ortalam sağa yaslama sola yaslama onlara da bak
+  */

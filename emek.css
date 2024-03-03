@@ -1,0 +1,59 @@
+.baslik{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transition: letter-spacing 1s;
+}
+.baslik:hover{
+    letter-spacing: 20px;
+}
+.sol{
+    color:  rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    margin-top: 60px;
+    line-height: 30px;
+    transition: letter-spacing 1s;
+    transition: line-height 1s;
+    width: 450px ;
+}
+.sol:hover{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+.orta{
+    color:  white;
+    display: inline-block;
+    margin-top: 500px;
+    transition: line-height 1s;
+    transition: padding-left 1s;
+    padding-left: 50px;
+    width: 350px;
+    line-height: 30px;
+}
+.orta:hover{
+    padding-left: 30px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.sag{
+    color:  white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 180px;
+    margin-top: 60px;
+    transition: letter-spacing 1s;
+    transition: line-height 1s;
+    transition: padding-left 1s;
+    line-height: 30px;
+}
+.sag:hover{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    padding-left: 15px;
+}
